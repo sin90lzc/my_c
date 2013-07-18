@@ -16,8 +16,13 @@ override ALL_MODULES:=${MAIN} ${MODULE1}
 
 all:${ALL_MODULES}
 
+<<<<<<< HEAD
 ${MODULE1}:
 	@cd ${DIR_SRC}/${MODULE1};${MAKE} ${MAKECMDGOALS}
+=======
+#${MODULE1}:
+#	@cd ${DIR_SRC}/${MODULE1};${MAKE} ${MAKECMDGOALS}
+>>>>>>> 93e6a56c06f23c9db2b118658bab04df0670a92b
 #	
 #${MODULE2}:
 #	@cd ${DIR_SRC}/${MODULE2};${MAKE} ${MAKECMDGOALS}
